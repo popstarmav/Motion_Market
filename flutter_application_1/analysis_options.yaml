@@ -1,4 +1,4 @@
-# This file configures the Dart analyzer for static code analysis.
+# Configures the Dart analyzer for static code analysis in Flutter.
 
 include: package:flutter_lints/flutter.yaml
 
@@ -8,38 +8,36 @@ analyzer:
     - .dart_tool/**
     - .idea/**
     - .vscode/**
-    - linux/**                 # Exclude native Linux files if not relevant to Dart analysis
-    - *.g.dart                 # Exclude generated files
-    - **/*.freezed.dart        # Exclude Freezed-generated files
+    - linux/**
+    - macos/**
+    - web/**
+    - windows/**
+    - test/**.mocks.dart
+    - *.g.dart
+    - **/*.freezed.dart
 
   language:
-    strict-inference: true      # Requires explicit type annotations for improved type safety
-    strict-casts: true          # Disallow implicit type casting
-    strict-raw-types: true      # Prevent using raw types for generics
+    strict-inference: true
+    strict-casts: true
+    strict-raw-types: true
 
 linter:
   rules:
-    # Recommended lint rules for Flutter development
-    prefer_const_constructors: true       # Enforce the use of `const` constructors when possible
-    prefer_const_literals_to_create_immutables: true # Use immutable literals with `const`
-    use_key_in_widget_constructors: true  # Enforce constructors with `Key`
-    prefer_final_fields: true             # Encourage using `final` for non-reassigned fields
-    avoid_unnecessary_containers: true    # Prevent wrapping widgets in unnecessary containers
-    always_use_package_imports: true      # Enforce importing from `package` for clarity
-
-    # Additional rules for better practices
-    avoid_print: true                     # Discourage using `print`; use proper logging instead
-    annotate_overrides: true              # Ensure overridden methods are annotated with `@override`
-    avoid_empty_else: true                # Avoid empty `else` blocks
-    sort_child_properties_last: true      # Sort widget child properties last for readability
-
-    # Uncomment as needed for stricter rules:
-    # prefer_single_quotes: true           # Enforce single quotes for strings
-    # avoid_classes_with_only_static_members: true # Discourage static-only classes
-    # unnecessary_null_checks: true       # Prevent redundant null checks in non-nullable code
-
-# Additional resources:
-# Lint rules: https://dart.dev/lints
-# Analysis options: https://dart.dev/guides/language/analysis-options
-
-
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    use_key_in_widget_constructors: true
+    prefer_final_fields: true
+    avoid_unnecessary_containers: true
+    always_use_package_imports: true
+    avoid_print: true
+    annotate_overrides: true
+    avoid_empty_else: true
+    sort_child_properties_last: true
+    avoid_redundant_argument_values: true
+    unnecessary_null_checks: true
+    prefer_typing_uninitialized_variables: true
+    always_put_control_body_on_new_line: true
+    always_put_required_named_parameters_first: true
+    avoid_dynamic_calls: true
+    prefer_asserts_with_message: true
+    prefer_is_not_empty: true

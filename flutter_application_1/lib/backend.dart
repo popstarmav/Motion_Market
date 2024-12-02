@@ -4,24 +4,17 @@ import 'package:ffi/ffi.dart';
 typedef GetMessageFunc = Pointer<Utf8> Function();
 typedef GetMessage = Pointer<Utf8> Function();
 
-class BackendBindings {
-  late DynamicLibrary _backend;
+class Backend {
+  final DynamicLibrary _library;
 
-  BackendBindings() {
-    _backend = DynamicLibrary.open('libcpp_backend.so');
-  }
+  Backend()
+      : _library =
+            DynamicLibrary.open('libbackend.so'); // Ensure the correct path.
 
-  String getBlockchainMessage() {
-    final GetMessage getBlockchainMessage = _backend
-        .lookup<NativeFunction<GetMessageFunc>>('get_blockchain_message')
-        .asFunction();
-    return getBlockchainMessage().toDartString();
-  }
-
-  String getGraphMessage() {
-    final GetMessage getGraphMessage = _backend
-        .lookup<NativeFunction<GetMessageFunc>>('get_graph_message')
-        .asFunction();
-    return getGraphMessage().toDartString();
+  String getMessage() {
+    final getMessagePointer =
+        _library.lookupFunction<GetMessageFunc, GetMessage>('getMessage');
+    final messagePointer = getMessagePointer();
+    return messagePointer.toDartString(); // Convert from Utf8 to Dart String.
   }
 }
