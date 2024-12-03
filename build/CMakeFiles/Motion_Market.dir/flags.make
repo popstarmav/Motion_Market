@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui
+C_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui
+CXX_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends
 
 CXX_FLAGS = -std=gnu++17
 
