@@ -1,3 +1,4 @@
 /home/bigzaababy/Motion_Market/build/CMakeFiles/Motion_Market.dir
+/home/bigzaababy/Motion_Market/build/CMakeFiles/glad.dir
 /home/bigzaababy/Motion_Market/build/CMakeFiles/edit_cache.dir
 /home/bigzaababy/Motion_Market/build/CMakeFiles/rebuild_cache.dir
