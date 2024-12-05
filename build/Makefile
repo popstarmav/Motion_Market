@@ -313,6 +313,78 @@ external/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.s
 .PHONY : external/imgui/imgui_widgets.cpp.s
 
+src/Market.o: src/Market.cpp.o
+.PHONY : src/Market.o
+
+# target to build an object file
+src/Market.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Market.cpp.o
+.PHONY : src/Market.cpp.o
+
+src/Market.i: src/Market.cpp.i
+.PHONY : src/Market.i
+
+# target to preprocess a source file
+src/Market.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Market.cpp.i
+.PHONY : src/Market.cpp.i
+
+src/Market.s: src/Market.cpp.s
+.PHONY : src/Market.s
+
+# target to generate assembly for a file
+src/Market.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Market.cpp.s
+.PHONY : src/Market.cpp.s
+
+src/RenderGUI.o: src/RenderGUI.cpp.o
+.PHONY : src/RenderGUI.o
+
+# target to build an object file
+src/RenderGUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o
+.PHONY : src/RenderGUI.cpp.o
+
+src/RenderGUI.i: src/RenderGUI.cpp.i
+.PHONY : src/RenderGUI.i
+
+# target to preprocess a source file
+src/RenderGUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.i
+.PHONY : src/RenderGUI.cpp.i
+
+src/RenderGUI.s: src/RenderGUI.cpp.s
+.PHONY : src/RenderGUI.s
+
+# target to generate assembly for a file
+src/RenderGUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.s
+.PHONY : src/RenderGUI.cpp.s
+
+src/User.o: src/User.cpp.o
+.PHONY : src/User.o
+
+# target to build an object file
+src/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/User.cpp.o
+.PHONY : src/User.cpp.o
+
+src/User.i: src/User.cpp.i
+.PHONY : src/User.i
+
+# target to preprocess a source file
+src/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/User.cpp.i
+.PHONY : src/User.cpp.i
+
+src/User.s: src/User.cpp.s
+.PHONY : src/User.s
+
+# target to generate assembly for a file
+src/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/User.cpp.s
+.PHONY : src/User.cpp.s
+
 src/artists.o: src/artists.cpp.o
 .PHONY : src/artists.o
 
@@ -392,6 +464,15 @@ help:
 	@echo "... external/imgui/imgui_widgets.o"
 	@echo "... external/imgui/imgui_widgets.i"
 	@echo "... external/imgui/imgui_widgets.s"
+	@echo "... src/Market.o"
+	@echo "... src/Market.i"
+	@echo "... src/Market.s"
+	@echo "... src/RenderGUI.o"
+	@echo "... src/RenderGUI.i"
+	@echo "... src/RenderGUI.s"
+	@echo "... src/User.o"
+	@echo "... src/User.i"
+	@echo "... src/User.s"
 	@echo "... src/artists.o"
 	@echo "... src/artists.i"
 	@echo "... src/artists.s"

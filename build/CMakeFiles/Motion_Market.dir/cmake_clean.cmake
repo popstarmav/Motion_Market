@@ -13,12 +13,18 @@ file(REMOVE_RECURSE
   "CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o.d"
   "CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o"
   "CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o.d"
+  "CMakeFiles/Motion_Market.dir/src/Market.cpp.o"
+  "CMakeFiles/Motion_Market.dir/src/Market.cpp.o.d"
+  "CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o"
+  "CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o.d"
+  "CMakeFiles/Motion_Market.dir/src/User.cpp.o"
+  "CMakeFiles/Motion_Market.dir/src/User.cpp.o.d"
   "CMakeFiles/Motion_Market.dir/src/artists.cpp.o"
   "CMakeFiles/Motion_Market.dir/src/artists.cpp.o.d"
   "CMakeFiles/Motion_Market.dir/src/main.cpp.o"
   "CMakeFiles/Motion_Market.dir/src/main.cpp.o.d"
-  "Motion_Market"
-  "Motion_Market.pdb"
+  "bin/Motion_Market"
+  "bin/Motion_Market.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
