@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends
+C_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends -I/home/bigzaababy/Motion_Market/external/implot
 
 C_FLAGS = 
 

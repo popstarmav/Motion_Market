@@ -237,6 +237,48 @@ CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
 
+CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
+CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o: /home/bigzaababy/Motion_Market/external/implot/implot.cpp
+CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o -MF CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o -c /home/bigzaababy/Motion_Market/external/implot/implot.cpp
+
+CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigzaababy/Motion_Market/external/implot/implot.cpp > CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.i
+
+CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/external/implot/implot.cpp -o CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.s
+
+CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
+CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o: /home/bigzaababy/Motion_Market/external/implot/implot_items.cpp
+CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o -MF CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o -c /home/bigzaababy/Motion_Market/external/implot/implot_items.cpp
+
+CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigzaababy/Motion_Market/external/implot/implot_items.cpp > CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.i
+
+CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/external/implot/implot_items.cpp -o CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.s
+
+CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
+CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o: /home/bigzaababy/Motion_Market/external/implot/implot_demo.cpp
+CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o -MF CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o -c /home/bigzaababy/Motion_Market/external/implot/implot_demo.cpp
+
+CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigzaababy/Motion_Market/external/implot/implot_demo.cpp > CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.i
+
+CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/external/implot/implot_demo.cpp -o CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.s
+
 # Object files for target Motion_Market
 Motion_Market_OBJECTS = \
 "CMakeFiles/Motion_Market.dir/src/main.cpp.o" \
@@ -250,7 +292,10 @@ Motion_Market_OBJECTS = \
 "CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o" \
 "CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o" \
 "CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o" \
-"CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+"CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o" \
+"CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o" \
+"CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o"
 
 # External object files for target Motion_Market
 Motion_Market_EXTERNAL_OBJECTS =
@@ -267,12 +312,17 @@ bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.
 bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o
 bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o
 bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o
+bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o
+bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o
+bin/Motion_Market: CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o
 bin/Motion_Market: CMakeFiles/Motion_Market.dir/build.make
 bin/Motion_Market: /usr/lib/x86_64-linux-gnu/libGL.so
 bin/Motion_Market: libglad.a
+bin/Motion_Market: /usr/lib/x86_64-linux-gnu/libGL.so
+bin/Motion_Market: libimplot.a
 bin/Motion_Market: /usr/lib/x86_64-linux-gnu/libpython3.12.so
 bin/Motion_Market: CMakeFiles/Motion_Market.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable bin/Motion_Market"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/Motion_Market"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Motion_Market.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,8 +1,10 @@
 #include "Market.h"
+#include "Artists.h"
 #include "User.h"
 #include "RenderGUI.h"
 #include <iostream>
 #include <cstdlib>
+#include <map> // Include map for storing artist stocks
 
 Market::Market() {
     // Add artist names to the list
@@ -32,31 +34,28 @@ Market::~Market() {
 }
 
 void Market::generateStats() {
-    // Generate fake stats (for views, growth, etc.) and OHLC data
+    // Generate fake stats (for views and growth)
     for (auto& artist : artists) {
         artist.setViews(rand() % 1000000);  // Random views for each artist
         artist.setGrowth(rand() % 1000);   // Random growth for each artist
 
-        // Generate OHLC data for the artist's stock
-        CryptoStock stock;
-        stock.name = artist.getName();
-        stock.price = 100.0f + (rand() % 500) / 10.0f;  // Random base price
-        for (int i = 0; i < 30; ++i) {  // Generate 30 days of historical data
-            GenerateOHLC(stock);
-        }
-        stocks[artist.getName()] = stock;
+        // Create a placeholder stock price for each artist
+        float stockPrice = 100.0f + (rand() % 500) / 10.0f;  // Random base price
+
+        // Store the stock price in a map (if needed)
+        artistStocks[artist.getName()] = stockPrice;
     }
 }
 
 void Market::renderStats(RenderGUI& renderGUI) {
-    // Loop through artists and render their stats and candlestick charts in the GUI
+    // Loop through artists and render their stats
     for (auto& artist : artists) {
         renderGUI.renderArtistStats(artist);
 
-        // Render candlestick chart for the artist's stock
-        auto it = stocks.find(artist.getName());
-        if (it != stocks.end()) {
-            renderGUI.renderCandlestickChart(it->second);
+        // Render placeholder candlestick chart using stock price (if applicable)
+        auto it = artistStocks.find(artist.getName());
+        if (it != artistStocks.end()) {
+            renderGUI.renderStockPriceChart(artist.getName(), it->second); // Example method
         }
     }
 }

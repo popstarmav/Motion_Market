@@ -1,16 +1,16 @@
-#ifndef RENDERGUI_H
-#define RENDERGUI_H
+#ifndef RENDER_GUI_H
+#define RENDER_GUI_H
 
-#include "Artist.h"
-#include <string>
+#include <tuple>
+#include "Artists.h"
+#include <vector>
 
 class RenderGUI {
 public:
-    RenderGUI();
-    ~RenderGUI();
-
-    void renderArtistStats(const Artist& artist);  // Render stats for a specific artist
-    void renderAllArtistsStats(const std::vector<Artist>& artists); // Render all artists' stats
+    void renderArtistStats(const Artist& artist);
+    void renderStockPriceChart(const std::string& artistName, float stockPrice);
+    void run(const std::vector<std::tuple<float, float, float, float>>& data);
 };
 
-#endif // RENDERGUI_H
+#endif
+ // RENDER_GUI_H

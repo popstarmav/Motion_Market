@@ -142,6 +142,19 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+#=============================================================================
+# Target rules for targets named implot
+
+# Build rule for target.
+implot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 implot
+.PHONY : implot
+
+# fast build rule for target.
+implot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/build
+.PHONY : implot/fast
+
 external/glad/src/glad.o: external/glad/src/glad.c.o
 .PHONY : external/glad/src/glad.o
 
@@ -313,6 +326,87 @@ external/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.s
 .PHONY : external/imgui/imgui_widgets.cpp.s
 
+external/implot/implot.o: external/implot/implot.cpp.o
+.PHONY : external/implot/implot.o
+
+# target to build an object file
+external/implot/implot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot.cpp.o
+.PHONY : external/implot/implot.cpp.o
+
+external/implot/implot.i: external/implot/implot.cpp.i
+.PHONY : external/implot/implot.i
+
+# target to preprocess a source file
+external/implot/implot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot.cpp.i
+.PHONY : external/implot/implot.cpp.i
+
+external/implot/implot.s: external/implot/implot.cpp.s
+.PHONY : external/implot/implot.s
+
+# target to generate assembly for a file
+external/implot/implot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot.cpp.s
+.PHONY : external/implot/implot.cpp.s
+
+external/implot/implot_demo.o: external/implot/implot_demo.cpp.o
+.PHONY : external/implot/implot_demo.o
+
+# target to build an object file
+external/implot/implot_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot_demo.cpp.o
+.PHONY : external/implot/implot_demo.cpp.o
+
+external/implot/implot_demo.i: external/implot/implot_demo.cpp.i
+.PHONY : external/implot/implot_demo.i
+
+# target to preprocess a source file
+external/implot/implot_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot_demo.cpp.i
+.PHONY : external/implot/implot_demo.cpp.i
+
+external/implot/implot_demo.s: external/implot/implot_demo.cpp.s
+.PHONY : external/implot/implot_demo.s
+
+# target to generate assembly for a file
+external/implot/implot_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot_demo.cpp.s
+.PHONY : external/implot/implot_demo.cpp.s
+
+external/implot/implot_items.o: external/implot/implot_items.cpp.o
+.PHONY : external/implot/implot_items.o
+
+# target to build an object file
+external/implot/implot_items.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot_items.cpp.o
+.PHONY : external/implot/implot_items.cpp.o
+
+external/implot/implot_items.i: external/implot/implot_items.cpp.i
+.PHONY : external/implot/implot_items.i
+
+# target to preprocess a source file
+external/implot/implot_items.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot_items.cpp.i
+.PHONY : external/implot/implot_items.cpp.i
+
+external/implot/implot_items.s: external/implot/implot_items.cpp.s
+.PHONY : external/implot/implot_items.s
+
+# target to generate assembly for a file
+external/implot/implot_items.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/external/implot/implot_items.cpp.s
+.PHONY : external/implot/implot_items.cpp.s
+
 src/Market.o: src/Market.cpp.o
 .PHONY : src/Market.o
 
@@ -443,6 +537,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Motion_Market"
 	@echo "... glad"
+	@echo "... implot"
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
@@ -464,6 +559,15 @@ help:
 	@echo "... external/imgui/imgui_widgets.o"
 	@echo "... external/imgui/imgui_widgets.i"
 	@echo "... external/imgui/imgui_widgets.s"
+	@echo "... external/implot/implot.o"
+	@echo "... external/implot/implot.i"
+	@echo "... external/implot/implot.s"
+	@echo "... external/implot/implot_demo.o"
+	@echo "... external/implot/implot_demo.i"
+	@echo "... external/implot/implot_demo.s"
+	@echo "... external/implot/implot_items.o"
+	@echo "... external/implot/implot_items.i"
+	@echo "... external/implot/implot_items.s"
 	@echo "... src/Market.o"
 	@echo "... src/Market.i"
 	@echo "... src/Market.s"
