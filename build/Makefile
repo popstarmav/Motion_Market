@@ -155,6 +155,19 @@ implot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/build
 .PHONY : implot/fast
 
+#=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
 external/glad/src/glad.o: external/glad/src/glad.c.o
 .PHONY : external/glad/src/glad.o
 
@@ -188,6 +201,7 @@ external/imgui/backends/imgui_impl_glfw.o: external/imgui/backends/imgui_impl_gl
 # target to build an object file
 external/imgui/backends/imgui_impl_glfw.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_glfw.cpp.o
 .PHONY : external/imgui/backends/imgui_impl_glfw.cpp.o
 
 external/imgui/backends/imgui_impl_glfw.i: external/imgui/backends/imgui_impl_glfw.cpp.i
@@ -196,6 +210,7 @@ external/imgui/backends/imgui_impl_glfw.i: external/imgui/backends/imgui_impl_gl
 # target to preprocess a source file
 external/imgui/backends/imgui_impl_glfw.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
 .PHONY : external/imgui/backends/imgui_impl_glfw.cpp.i
 
 external/imgui/backends/imgui_impl_glfw.s: external/imgui/backends/imgui_impl_glfw.cpp.s
@@ -204,6 +219,7 @@ external/imgui/backends/imgui_impl_glfw.s: external/imgui/backends/imgui_impl_gl
 # target to generate assembly for a file
 external/imgui/backends/imgui_impl_glfw.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
 .PHONY : external/imgui/backends/imgui_impl_glfw.cpp.s
 
 external/imgui/backends/imgui_impl_opengl3.o: external/imgui/backends/imgui_impl_opengl3.cpp.o
@@ -212,6 +228,7 @@ external/imgui/backends/imgui_impl_opengl3.o: external/imgui/backends/imgui_impl
 # target to build an object file
 external/imgui/backends/imgui_impl_opengl3.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o
 .PHONY : external/imgui/backends/imgui_impl_opengl3.cpp.o
 
 external/imgui/backends/imgui_impl_opengl3.i: external/imgui/backends/imgui_impl_opengl3.cpp.i
@@ -220,6 +237,7 @@ external/imgui/backends/imgui_impl_opengl3.i: external/imgui/backends/imgui_impl
 # target to preprocess a source file
 external/imgui/backends/imgui_impl_opengl3.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
 .PHONY : external/imgui/backends/imgui_impl_opengl3.cpp.i
 
 external/imgui/backends/imgui_impl_opengl3.s: external/imgui/backends/imgui_impl_opengl3.cpp.s
@@ -228,6 +246,7 @@ external/imgui/backends/imgui_impl_opengl3.s: external/imgui/backends/imgui_impl
 # target to generate assembly for a file
 external/imgui/backends/imgui_impl_opengl3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
 .PHONY : external/imgui/backends/imgui_impl_opengl3.cpp.s
 
 external/imgui/imgui.o: external/imgui/imgui.cpp.o
@@ -236,6 +255,7 @@ external/imgui/imgui.o: external/imgui/imgui.cpp.o
 # target to build an object file
 external/imgui/imgui.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui.cpp.o
 .PHONY : external/imgui/imgui.cpp.o
 
 external/imgui/imgui.i: external/imgui/imgui.cpp.i
@@ -244,6 +264,7 @@ external/imgui/imgui.i: external/imgui/imgui.cpp.i
 # target to preprocess a source file
 external/imgui/imgui.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui.cpp.i
 .PHONY : external/imgui/imgui.cpp.i
 
 external/imgui/imgui.s: external/imgui/imgui.cpp.s
@@ -252,7 +273,35 @@ external/imgui/imgui.s: external/imgui/imgui.cpp.s
 # target to generate assembly for a file
 external/imgui/imgui.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui.cpp.s
 .PHONY : external/imgui/imgui.cpp.s
+
+external/imgui/imgui_demo.o: external/imgui/imgui_demo.cpp.o
+.PHONY : external/imgui/imgui_demo.o
+
+# target to build an object file
+external/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_demo.cpp.o
+.PHONY : external/imgui/imgui_demo.cpp.o
+
+external/imgui/imgui_demo.i: external/imgui/imgui_demo.cpp.i
+.PHONY : external/imgui/imgui_demo.i
+
+# target to preprocess a source file
+external/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_demo.cpp.i
+.PHONY : external/imgui/imgui_demo.cpp.i
+
+external/imgui/imgui_demo.s: external/imgui/imgui_demo.cpp.s
+.PHONY : external/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+external/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_demo.cpp.s
+.PHONY : external/imgui/imgui_demo.cpp.s
 
 external/imgui/imgui_draw.o: external/imgui/imgui_draw.cpp.o
 .PHONY : external/imgui/imgui_draw.o
@@ -260,6 +309,7 @@ external/imgui/imgui_draw.o: external/imgui/imgui_draw.cpp.o
 # target to build an object file
 external/imgui/imgui_draw.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.o
 .PHONY : external/imgui/imgui_draw.cpp.o
 
 external/imgui/imgui_draw.i: external/imgui/imgui_draw.cpp.i
@@ -268,6 +318,7 @@ external/imgui/imgui_draw.i: external/imgui/imgui_draw.cpp.i
 # target to preprocess a source file
 external/imgui/imgui_draw.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.i
 .PHONY : external/imgui/imgui_draw.cpp.i
 
 external/imgui/imgui_draw.s: external/imgui/imgui_draw.cpp.s
@@ -276,6 +327,7 @@ external/imgui/imgui_draw.s: external/imgui/imgui_draw.cpp.s
 # target to generate assembly for a file
 external/imgui/imgui_draw.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.s
 .PHONY : external/imgui/imgui_draw.cpp.s
 
 external/imgui/imgui_tables.o: external/imgui/imgui_tables.cpp.o
@@ -284,6 +336,7 @@ external/imgui/imgui_tables.o: external/imgui/imgui_tables.cpp.o
 # target to build an object file
 external/imgui/imgui_tables.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_tables.cpp.o
 .PHONY : external/imgui/imgui_tables.cpp.o
 
 external/imgui/imgui_tables.i: external/imgui/imgui_tables.cpp.i
@@ -292,6 +345,7 @@ external/imgui/imgui_tables.i: external/imgui/imgui_tables.cpp.i
 # target to preprocess a source file
 external/imgui/imgui_tables.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_tables.cpp.i
 .PHONY : external/imgui/imgui_tables.cpp.i
 
 external/imgui/imgui_tables.s: external/imgui/imgui_tables.cpp.s
@@ -300,6 +354,7 @@ external/imgui/imgui_tables.s: external/imgui/imgui_tables.cpp.s
 # target to generate assembly for a file
 external/imgui/imgui_tables.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_tables.cpp.s
 .PHONY : external/imgui/imgui_tables.cpp.s
 
 external/imgui/imgui_widgets.o: external/imgui/imgui_widgets.cpp.o
@@ -308,6 +363,7 @@ external/imgui/imgui_widgets.o: external/imgui/imgui_widgets.cpp.o
 # target to build an object file
 external/imgui/imgui_widgets.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.o
 .PHONY : external/imgui/imgui_widgets.cpp.o
 
 external/imgui/imgui_widgets.i: external/imgui/imgui_widgets.cpp.i
@@ -316,6 +372,7 @@ external/imgui/imgui_widgets.i: external/imgui/imgui_widgets.cpp.i
 # target to preprocess a source file
 external/imgui/imgui_widgets.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.i
 .PHONY : external/imgui/imgui_widgets.cpp.i
 
 external/imgui/imgui_widgets.s: external/imgui/imgui_widgets.cpp.s
@@ -324,6 +381,7 @@ external/imgui/imgui_widgets.s: external/imgui/imgui_widgets.cpp.s
 # target to generate assembly for a file
 external/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.s
 .PHONY : external/imgui/imgui_widgets.cpp.s
 
 external/implot/implot.o: external/implot/implot.cpp.o
@@ -431,6 +489,30 @@ src/Market.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Market.cpp.s
 .PHONY : src/Market.cpp.s
 
+src/PythonHandler.o: src/PythonHandler.cpp.o
+.PHONY : src/PythonHandler.o
+
+# target to build an object file
+src/PythonHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/PythonHandler.cpp.o
+.PHONY : src/PythonHandler.cpp.o
+
+src/PythonHandler.i: src/PythonHandler.cpp.i
+.PHONY : src/PythonHandler.i
+
+# target to preprocess a source file
+src/PythonHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/PythonHandler.cpp.i
+.PHONY : src/PythonHandler.cpp.i
+
+src/PythonHandler.s: src/PythonHandler.cpp.s
+.PHONY : src/PythonHandler.s
+
+# target to generate assembly for a file
+src/PythonHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/PythonHandler.cpp.s
+.PHONY : src/PythonHandler.cpp.s
+
 src/RenderGUI.o: src/RenderGUI.cpp.o
 .PHONY : src/RenderGUI.o
 
@@ -537,6 +619,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Motion_Market"
 	@echo "... glad"
+	@echo "... imgui"
 	@echo "... implot"
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
@@ -550,6 +633,9 @@ help:
 	@echo "... external/imgui/imgui.o"
 	@echo "... external/imgui/imgui.i"
 	@echo "... external/imgui/imgui.s"
+	@echo "... external/imgui/imgui_demo.o"
+	@echo "... external/imgui/imgui_demo.i"
+	@echo "... external/imgui/imgui_demo.s"
 	@echo "... external/imgui/imgui_draw.o"
 	@echo "... external/imgui/imgui_draw.i"
 	@echo "... external/imgui/imgui_draw.s"
@@ -571,6 +657,9 @@ help:
 	@echo "... src/Market.o"
 	@echo "... src/Market.i"
 	@echo "... src/Market.s"
+	@echo "... src/PythonHandler.o"
+	@echo "... src/PythonHandler.i"
+	@echo "... src/PythonHandler.s"
 	@echo "... src/RenderGUI.o"
 	@echo "... src/RenderGUI.i"
 	@echo "... src/RenderGUI.s"

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends -I/home/bigzaababy/Motion_Market/external/implot
+CXX_INCLUDES = -I/home/bigzaababy/Motion_Market/external/glfw/include -I/home/bigzaababy/Motion_Market/external/glad/include -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends -I/home/bigzaababy/Motion_Market/external/implot -I/usr/include/python3.12
 
 CXX_FLAGS = -std=gnu++17
 
