@@ -18,7 +18,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
  /home/bigzaababy/Motion_Market/external/imgui/backends/imgui_impl_glfw.h \
- /home/bigzaababy/Motion_Market/external/glfw/include/GLFW/glfw3.h \
+ /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -27,8 +27,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h \
- /home/bigzaababy/Motion_Market/external/glad/include/KHR/khrplatform.h \
+ /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
