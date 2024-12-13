@@ -97,24 +97,38 @@ CMakeFiles/Motion_Market.dir/src/Market.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/src/Market.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/src/Market.cpp -o CMakeFiles/Motion_Market.dir/src/Market.cpp.s
 
-CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
-CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o: /home/bigzaababy/Motion_Market/src/RenderGUI.cpp
-CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o -MF CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o.d -o CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o -c /home/bigzaababy/Motion_Market/src/RenderGUI.cpp
+CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
+CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o: /home/bigzaababy/Motion_Market/src/ImGuiSetup.cpp
+CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o -MF CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o.d -o CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o -c /home/bigzaababy/Motion_Market/src/ImGuiSetup.cpp
 
-CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigzaababy/Motion_Market/src/RenderGUI.cpp > CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.i
+CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigzaababy/Motion_Market/src/ImGuiSetup.cpp > CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.i
 
-CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/src/RenderGUI.cpp -o CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.s
+CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/src/ImGuiSetup.cpp -o CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.s
+
+CMakeFiles/Motion_Market.dir/src/Artists.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
+CMakeFiles/Motion_Market.dir/src/Artists.cpp.o: /home/bigzaababy/Motion_Market/src/Artists.cpp
+CMakeFiles/Motion_Market.dir/src/Artists.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Motion_Market.dir/src/Artists.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/src/Artists.cpp.o -MF CMakeFiles/Motion_Market.dir/src/Artists.cpp.o.d -o CMakeFiles/Motion_Market.dir/src/Artists.cpp.o -c /home/bigzaababy/Motion_Market/src/Artists.cpp
+
+CMakeFiles/Motion_Market.dir/src/Artists.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Motion_Market.dir/src/Artists.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bigzaababy/Motion_Market/src/Artists.cpp > CMakeFiles/Motion_Market.dir/src/Artists.cpp.i
+
+CMakeFiles/Motion_Market.dir/src/Artists.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Motion_Market.dir/src/Artists.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bigzaababy/Motion_Market/src/Artists.cpp -o CMakeFiles/Motion_Market.dir/src/Artists.cpp.s
 
 CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/imgui.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/imgui.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/imgui_demo.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/imgui_demo.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/imgui_draw.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/imgui_draw.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/imgui_tables.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/imgui_tables.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/imgui_widgets.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/imgui_widgets.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_glfw.cpp.s: cmak
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /home/bigzaababy/Motion_Market/external/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/bigzaababy/Motion_Market/external/imgui/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/Motion_Market.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: c
 CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o: /home/bigzaababy/Motion_Market/external/implot/implot.cpp
 CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o -MF CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.o -c /home/bigzaababy/Motion_Market/external/implot/implot.cpp
 
 CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/Motion_Market.dir/external/implot/implot.cpp.s: cmake_force
 CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o: CMakeFiles/Motion_Market.dir/flags.make
 CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o: /home/bigzaababy/Motion_Market/external/implot/implot_items.cpp
 CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o: CMakeFiles/Motion_Market.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o -MF CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o.d -o CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.o -c /home/bigzaababy/Motion_Market/external/implot/implot_items.cpp
 
 CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.i: cmake_force
@@ -241,7 +255,8 @@ CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.s: cmake_force
 Motion_Market_OBJECTS = \
 "CMakeFiles/Motion_Market.dir/src/main.cpp.o" \
 "CMakeFiles/Motion_Market.dir/src/Market.cpp.o" \
-"CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o" \
+"CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o" \
+"CMakeFiles/Motion_Market.dir/src/Artists.cpp.o" \
 "CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o" \
 "CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o" \
@@ -257,7 +272,8 @@ Motion_Market_EXTERNAL_OBJECTS =
 
 Motion_Market: CMakeFiles/Motion_Market.dir/src/main.cpp.o
 Motion_Market: CMakeFiles/Motion_Market.dir/src/Market.cpp.o
-Motion_Market: CMakeFiles/Motion_Market.dir/src/RenderGUI.cpp.o
+Motion_Market: CMakeFiles/Motion_Market.dir/src/ImGuiSetup.cpp.o
+Motion_Market: CMakeFiles/Motion_Market.dir/src/Artists.cpp.o
 Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/imgui.cpp.o
 Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/imgui_demo.cpp.o
 Motion_Market: CMakeFiles/Motion_Market.dir/external/imgui/imgui_draw.cpp.o
@@ -271,7 +287,7 @@ Motion_Market: CMakeFiles/Motion_Market.dir/build.make
 Motion_Market: /usr/lib/x86_64-linux-gnu/libGL.so
 Motion_Market: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 Motion_Market: CMakeFiles/Motion_Market.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Motion_Market"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bigzaababy/Motion_Market/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Motion_Market"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Motion_Market.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
