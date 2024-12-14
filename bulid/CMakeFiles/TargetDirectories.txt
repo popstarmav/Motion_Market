@@ -1,0 +1,3 @@
+/home/bigzaababy/Motion_Market/bulid/CMakeFiles/Motion_Market.dir
+/home/bigzaababy/Motion_Market/bulid/CMakeFiles/edit_cache.dir
+/home/bigzaababy/Motion_Market/bulid/CMakeFiles/rebuild_cache.dir
