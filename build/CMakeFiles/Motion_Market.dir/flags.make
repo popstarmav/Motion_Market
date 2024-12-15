@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/bigzaababy/Motion_Market/external/imgui -I/home/bigzaababy/Motion_Market/external/imgui/backends -I/home/bigzaababy/Motion_Market/external/implot -I/home/bigzaababy/Motion_Market/src
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -std=gnu++17 -Wall -Wextra -pedantic -Werror -Wno-unused-parameter
 

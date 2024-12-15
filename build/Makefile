@@ -345,29 +345,29 @@ external/implot/implot_items.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/external/implot/implot_items.cpp.s
 .PHONY : external/implot/implot_items.cpp.s
 
-src/Artists.o: src/Artists.cpp.o
-.PHONY : src/Artists.o
+src/FakeDataGenerator.o: src/FakeDataGenerator.cpp.o
+.PHONY : src/FakeDataGenerator.o
 
 # target to build an object file
-src/Artists.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Artists.cpp.o
-.PHONY : src/Artists.cpp.o
+src/FakeDataGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/FakeDataGenerator.cpp.o
+.PHONY : src/FakeDataGenerator.cpp.o
 
-src/Artists.i: src/Artists.cpp.i
-.PHONY : src/Artists.i
+src/FakeDataGenerator.i: src/FakeDataGenerator.cpp.i
+.PHONY : src/FakeDataGenerator.i
 
 # target to preprocess a source file
-src/Artists.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Artists.cpp.i
-.PHONY : src/Artists.cpp.i
+src/FakeDataGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/FakeDataGenerator.cpp.i
+.PHONY : src/FakeDataGenerator.cpp.i
 
-src/Artists.s: src/Artists.cpp.s
-.PHONY : src/Artists.s
+src/FakeDataGenerator.s: src/FakeDataGenerator.cpp.s
+.PHONY : src/FakeDataGenerator.s
 
 # target to generate assembly for a file
-src/Artists.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Artists.cpp.s
-.PHONY : src/Artists.cpp.s
+src/FakeDataGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/FakeDataGenerator.cpp.s
+.PHONY : src/FakeDataGenerator.cpp.s
 
 src/ImGuiSetup.o: src/ImGuiSetup.cpp.o
 .PHONY : src/ImGuiSetup.o
@@ -416,6 +416,54 @@ src/Market.s: src/Market.cpp.s
 src/Market.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Market.cpp.s
 .PHONY : src/Market.cpp.s
+
+src/Token.o: src/Token.cpp.o
+.PHONY : src/Token.o
+
+# target to build an object file
+src/Token.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Token.cpp.o
+.PHONY : src/Token.cpp.o
+
+src/Token.i: src/Token.cpp.i
+.PHONY : src/Token.i
+
+# target to preprocess a source file
+src/Token.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Token.cpp.i
+.PHONY : src/Token.cpp.i
+
+src/Token.s: src/Token.cpp.s
+.PHONY : src/Token.s
+
+# target to generate assembly for a file
+src/Token.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/Token.cpp.s
+.PHONY : src/Token.cpp.s
+
+src/UserProfile.o: src/UserProfile.cpp.o
+.PHONY : src/UserProfile.o
+
+# target to build an object file
+src/UserProfile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/UserProfile.cpp.o
+.PHONY : src/UserProfile.cpp.o
+
+src/UserProfile.i: src/UserProfile.cpp.i
+.PHONY : src/UserProfile.i
+
+# target to preprocess a source file
+src/UserProfile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/UserProfile.cpp.i
+.PHONY : src/UserProfile.cpp.i
+
+src/UserProfile.s: src/UserProfile.cpp.s
+.PHONY : src/UserProfile.s
+
+# target to generate assembly for a file
+src/UserProfile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motion_Market.dir/build.make CMakeFiles/Motion_Market.dir/src/UserProfile.cpp.s
+.PHONY : src/UserProfile.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -477,15 +525,21 @@ help:
 	@echo "... external/implot/implot_items.o"
 	@echo "... external/implot/implot_items.i"
 	@echo "... external/implot/implot_items.s"
-	@echo "... src/Artists.o"
-	@echo "... src/Artists.i"
-	@echo "... src/Artists.s"
+	@echo "... src/FakeDataGenerator.o"
+	@echo "... src/FakeDataGenerator.i"
+	@echo "... src/FakeDataGenerator.s"
 	@echo "... src/ImGuiSetup.o"
 	@echo "... src/ImGuiSetup.i"
 	@echo "... src/ImGuiSetup.s"
 	@echo "... src/Market.o"
 	@echo "... src/Market.i"
 	@echo "... src/Market.s"
+	@echo "... src/Token.o"
+	@echo "... src/Token.i"
+	@echo "... src/Token.s"
+	@echo "... src/UserProfile.o"
+	@echo "... src/UserProfile.i"
+	@echo "... src/UserProfile.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
