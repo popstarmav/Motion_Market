@@ -46,28 +46,9 @@ Generate Build Files
 bash
 Copy code
 cmake -B build  
-Compile the Code
-
-bash
-Copy code
 cmake --build build  
-🛠 Development
-Initialize the Engine
-cpp
-Copy code
-if (!glfwInit()) {  
-    // Handle initialization failure  
-}  
-
-// Configure platform-specific features  
-glfwInitHint(GLFW_PLATFORM, GLFW_ANY_PLATFORM);  
-Create a Display Window
-cpp
-Copy code
-GLFWwindow* window = glfwCreateWindow(1920, 1080, "Motion Market", NULL, NULL);  
-if (!window) {  
-    // Handle window creation failure  
-}  
+./motion-market  
+  
 🏗 Architecture
 Core Engine: Built on GLFW for rendering and window management.
 Asset System: Enables real-time preview and manipulation of assets.
@@ -96,4 +77,4 @@ Open a Pull Request.
 Have questions or need support? Feel free to reach out:
 
 Email: [cj.johnson@gmail.com]
-GitHub: @ popstarmav 
+GitHub: @ popstarmav
