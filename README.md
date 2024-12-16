@@ -98,4 +98,4 @@ Have questions or need support? Feel free to reach out:
 Email: [cj.johnson@gmail.com]
 GitHub: @ popstarmav 
 
-![Flowchart for Motion Market](assets/flowchart.png)
+![Flowchart for Motion Market](Motion_Market/assets/flowchart.png)
