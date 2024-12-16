@@ -1,62 +1,60 @@
 #include "Market.h"
-#include "Artists.h"
-#include "User.h"
-#include "RenderGUI.h"
-#include <iostream>
-#include <cstdlib>
-#include <map> // Include map for storing artist stocks
+#include "UserProfile.h"
+#include <chrono>
 
-Market::Market() {
-    // Add artist names to the list
-    artists.push_back(Artist("Kendrick Lamar"));
-    artists.push_back(Artist("Sabrina Carpenter"));
-    artists.push_back(Artist("Ariana Grande"));
-    artists.push_back(Artist("Taylor Swift"));
-    artists.push_back(Artist("Morgan Wallen"));
-    artists.push_back(Artist("Cynthia Erivo"));
-    artists.push_back(Artist("Billie Eilish"));
-    artists.push_back(Artist("Zach Bryan"));
-    artists.push_back(Artist("Jelly Roll"));
-    artists.push_back(Artist("Tyler, The Creator"));
-    artists.push_back(Artist("SZA"));
-    artists.push_back(Artist("Chappell Roan"));
-    artists.push_back(Artist("Teddy Swims"));
-    artists.push_back(Artist("Shaboozey"));
-    artists.push_back(Artist("Luke Combs"));
-    artists.push_back(Artist("Bruno Mars"));
-    artists.push_back(Artist("Gracie Abrams"));
-    artists.push_back(Artist("Post Malone"));
-    artists.push_back(Artist("The Philly Specials"));
+Market& Market::getInstance() {
+    static Market instance;
+    return instance;
 }
 
-Market::~Market() {
-    // Clean up if necessary
-}
-
-void Market::generateStats() {
-    // Generate fake stats (for views and growth)
-    for (auto& artist : artists) {
-        artist.setViews(rand() % 1000000);  // Random views for each artist
-        artist.setGrowth(rand() % 1000);   // Random growth for each artist
-
-        // Create a placeholder stock price for each artist
-        float stockPrice = 100.0f + (rand() % 500) / 10.0f;  // Random base price
-
-        // Store the stock price in a map (if needed)
-        artistStocks[artist.getName()] = stockPrice;
+void Market::updatePrice(const std::string& tokenName, double price) {
+    auto now = std::chrono::system_clock::now().time_since_epoch().count();
+    PricePoint point{static_cast<double>(now), price};
+    priceHistory[tokenName].push_back(point);
+    
+    auto token = TokenRegistry::getInstance().getToken(tokenName);
+    if (token) {
+        token->updatePrice(price);
     }
 }
 
-void Market::renderStats(RenderGUI& renderGUI) {
-    // Loop through artists and render their stats
-    for (auto& artist : artists) {
-        renderGUI.renderArtistStats(artist);
+void Market::executeTrade(const std::string& tokenName, double amount, bool isBuy) {
+    auto token = TokenRegistry::getInstance().getToken(tokenName);
+    if (!token) return;
 
-        // Render placeholder candlestick chart using stock price (if applicable)
-        auto it = artistStocks.find(artist.getName());
-        if (it != artistStocks.end()) {
-            renderGUI.renderStockPriceChart(artist.getName(), it->second); // Example method
-        }
+    // Update user's portfolio
+    UserProfile::getInstance().updateBalance(tokenName, isBuy ? amount : -amount);
+
+    TokenTransaction tx{
+        isBuy ? "Market" : "User",
+        isBuy ? "User" : "Market",
+        amount,
+        token->getCurrentPrice(),
+        static_cast<uint64_t>(std::time(nullptr)),
+        "tx_" + std::to_string(std::rand())
+    };
+
+    token->addTransaction(tx);
+    recentTrades.push_front(tx);
+    if (recentTrades.size() > MAX_RECENT_TRADES) {
+        recentTrades.pop_back();
     }
+}
+
+std::vector<PricePoint> Market::getPriceHistory(const std::string& tokenName) const {
+    auto it = priceHistory.find(tokenName);
+    return (it != priceHistory.end()) ? it->second : std::vector<PricePoint>{};
+}
+
+double Market::getLatestPrice(const std::string& tokenName) const {
+    auto it = priceHistory.find(tokenName);
+    if (it != priceHistory.end() && !it->second.empty()) {
+        return it->second.back().price;
+    }
+    return 0.0;
+}
+
+const std::deque<TokenTransaction>& Market::getRecentTrades() const {
+    return recentTrades;
 }
 

@@ -1,25 +1,27 @@
-#ifndef MARKET_H
-#define MARKET_H
-
-#include "User.h"
-#include "Artists.h"
-#include "RenderGUI.h"
+#pragma once
+#include "Token.h"
 #include <vector>
-#include <map>    // For stock price storage
-#include <string> // For artist names
+#include <deque>
+
+struct PricePoint {
+    double time;
+    double price;
+};
 
 class Market {
 public:
-    Market();
-    ~Market();
-
-    void generateStats(); // Generate stats for artists
-    void renderStats(RenderGUI& renderGUI); // Pass RenderGUI to update display
+    static Market& getInstance();
+    void updatePrice(const std::string& tokenName, double price);
+    void executeTrade(const std::string& tokenName, double amount, bool isBuy);
+    
+    std::vector<PricePoint> getPriceHistory(const std::string& tokenName) const;
+    double getLatestPrice(const std::string& tokenName) const;
+    const std::deque<TokenTransaction>& getRecentTrades() const;
 
 private:
-    std::vector<Artist> artists;             // List of artists
-    std::map<std::string, float> artistStocks; // Map of artist names to stock prices
+    Market() = default;
+    std::unordered_map<std::string, std::vector<PricePoint>> priceHistory;
+    std::deque<TokenTransaction> recentTrades;
+    static constexpr size_t MAX_RECENT_TRADES = 100;
 };
-
-#endif // MARKET_H
 
