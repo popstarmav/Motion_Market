@@ -51,23 +51,7 @@ Compile the Code
 bash
 Copy code
 cmake --build build  
-🛠 Development
-Initialize the Engine
-cpp
-Copy code
-if (!glfwInit()) {  
-    // Handle initialization failure  
-}  
 
-// Configure platform-specific features  
-glfwInitHint(GLFW_PLATFORM, GLFW_ANY_PLATFORM);  
-Create a Display Window
-cpp
-Copy code
-GLFWwindow* window = glfwCreateWindow(1920, 1080, "Motion Market", NULL, NULL);  
-if (!window) {  
-    // Handle window creation failure  
-}  
 🏗 Architecture
 Core Engine: Built on GLFW for rendering and window management.
 Asset System: Enables real-time preview and manipulation of assets.
@@ -97,5 +81,3 @@ Have questions or need support? Feel free to reach out:
 
 Email: [cj.johnson@gmail.com]
 GitHub: @ popstarmav 
-
-![image alt](https://github.com/popstarmav/Motion_Market/blob/25629c10d4268a579286a2356fb71137ca3c5e41/flowchart.png)
