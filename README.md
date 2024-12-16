@@ -96,4 +96,6 @@ Open a Pull Request.
 Have questions or need support? Feel free to reach out:
 
 Email: [cj.johnson@gmail.com]
-GitHub: @ popstarmav 
+GitHub: @ popstarmav
+
+![mermaid-ai-diagram-2024-12-16-124147](https://github.com/user-attachments/assets/6ef70ff0-3733-4857-a430-88149b762110)
