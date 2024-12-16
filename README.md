@@ -52,12 +52,13 @@ bash
 Copy code
 cmake --build build  
 
-🏗 Architecture
+## 🏗 Architecture
 Core Engine: Built on GLFW for rendering and window management.
 Asset System: Enables real-time preview and manipulation of assets.
 Marketplace Interface: Simplifies browsing and interacting with assets.
 Extension API: Supports the development of custom rendering pipelines and tools.
-📖 Documentation
+
+##c📖 Documentation
 Comprehensive guides are available to help you:
 
 Manage assets effectively.
@@ -65,7 +66,8 @@ Build and customize rendering pipelines.
 Integrate with the marketplace interface.
 Develop extensions for specialized workflows.
 Leverage platform-specific features.
-🤝 Contributing
+
+## 🤝 Contributing
 We welcome contributions! Here's how you can help:
 
 Fork the repository.
@@ -73,7 +75,8 @@ Create a feature branch (git checkout -b feature-name).
 Commit your changes (git commit -m "Add feature").
 Push to the branch (git push origin feature-name).
 Open a Pull Request.
-📜 License
+
+##📜 License
 
 MIT License
 
