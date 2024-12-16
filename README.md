@@ -74,7 +74,10 @@ Commit your changes (git commit -m "Add feature").
 Push to the branch (git push origin feature-name).
 Open a Pull Request.
 📜 License
-[Insert your chosen license here, e.g., MIT, GPLv3]
+
+MIT License
+
+Copyright (c) 2024 Motion_Market
 
 📬 Contact
 Have questions or need support? Feel free to reach out:
