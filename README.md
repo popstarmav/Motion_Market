@@ -1,5 +1,5 @@
 # Motion Market  
-
+![image alt](https://github.com/popstarmav/Motion_Market/blob/25629c10d4268a579286a2356fb71137ca3c5e41/flowchart.png)
 **A cutting-edge real-time graphics marketplace built on GLFW, delivering seamless cross-platform rendering and intuitive asset management.**  
 
 ---
