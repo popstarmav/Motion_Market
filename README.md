@@ -123,7 +123,8 @@ furnished to do so, subject to the following conditions:
 
 Have questions or need support? Feel free to reach out:  
 
-- **Email**: [cj.johnson@gmail.com](mailto:cj.johnson@gmail.com)  
+- **Email**: [cj.johnson@gmail.com]
+  
 - **GitHub**: [@popstarmav](https://github.com/popstarmav)  
 
 ---
