@@ -1,101 +1,101 @@
 # Motion Market  
-
+![image alt](https://github.com/popstarmav/Motion_Market/blob/25629c10d4268a579286a2356fb71137ca3c5e41/flowchart.png)
 **A cutting-edge real-time graphics marketplace built on GLFW, delivering seamless cross-platform rendering and intuitive asset management.**  
+---
+
+## 🎉 $MOIN Is Live!  
+
+We’re excited to announce the official **launch of $MOIN**, a new **memecoin** designed for fans of celebrities, streamers, gamers, and sports teams.  
+
+Whether you're a hardcore gamer, an avid sports fan, or a follower of your favorite online personalities, **$MOIN** is for you!  
+
+This coin goes beyond being just a digital currency—it’s a way for fans to engage, support, and celebrate the communities they love.  
+
+**Get ready to ride the wave with $MOIN—the coin of the fans, by the fans, and for the fans.**  
+
+✨ **$MOIN is now live and ready for you to join the revolution!**  
 
 ---
 
-## 🚀 Core Features  
+## 🚀 About Motion Market  
 
+**Motion Market** is a cutting-edge real-time graphics marketplace built on GLFW, delivering seamless cross-platform rendering and intuitive asset management.  
+
+While **$MOIN** has officially launched, work on the **Motion Market** app is ongoing. Once completed, the platform will enable seamless integration with $MOIN, creating a powerful ecosystem where technology meets fan engagement.  
+
+---
+
+## ✨ Core Features  
+
+### Current Features  
 - **Real-Time Asset Previews**  
-  Utilize OpenGL/Vulkan for high-performance, real-time asset rendering.  
-
-- **Cross-Platform Window Management**  
-  Powered by GLFW for robust input handling and consistent behavior on Windows, macOS, and Linux.  
-
+  Leverage OpenGL/Vulkan for high-performance, real-time asset rendering.  
+- **Cross-Platform Compatibility**  
+  Built on GLFW for consistent performance on Windows, macOS, and Linux.  
 - **Multi-Monitor Support**  
-  Designed for professional workflows with advanced multi-display configurations.  
+  Optimized for professional workflows with advanced multi-display configurations.  
 
-- **Optimized Asset Loading**  
-  Features advanced context sharing for lightning-fast asset loading and manipulation.  
-
-- **Extensible Rendering Pipeline**  
-  Fully customizable with a robust extension API for tailored rendering workflows.  
+### Coming Soon: Motion Market App Features  
+- **$MOIN Integration**  
+  Use $MOIN to purchase assets, support creators, and unlock exclusive features.  
+- **Decentralized Asset Marketplace**  
+  Blockchain-backed transactions for security and transparency.  
+- **Enhanced Asset Management Tools**  
+  Advanced organization, previews, and export options.  
+- **Mobile App Support**  
+  Access Motion Market features directly from your smartphone.  
 
 ---
 
-## 🛠 Getting Started  
+## 🛠️ Future Plans  
 
-### Prerequisites  
+Our mission is to create a comprehensive marketplace for real-time graphics while building on the potential of **$MOIN** to revolutionize fan engagement.  
+
+Here’s what’s next:  
+- Expanding the **Motion Market App** with advanced rendering pipelines and intuitive asset workflows.  
+- Building community tools and plugins to encourage user creativity.  
+- Expanding $MOIN's utility in Motion Market and beyond.  
+
+---
 
 #### Windows/macOS  
 - CMake 3.0+  
 - A modern C++ compiler (e.g., MSVC, Clang, or GCC).  
 
 #### Linux  
-For full functionality, ensure the following dependencies are installed:  
+Ensure the following dependencies are installed:  
 ```bash  
 sudo apt install libwayland-dev libxkbcommon-dev xorg-dev  
-🔨 Building
-Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/your-org/motion-market.git  
-Generate Build Files
 
-bash
-Copy code
-cmake -B build  
-Compile the Code
+## 📄 License  
 
-bash
-Copy code
-cmake --build build  
-🛠 Development
-Initialize the Engine
-cpp
-Copy code
-if (!glfwInit()) {  
-    // Handle initialization failure  
-}  
+**MIT License**  
 
-// Configure platform-specific features  
-glfwInitHint(GLFW_PLATFORM, GLFW_ANY_PLATFORM);  
-Create a Display Window
-cpp
-Copy code
-GLFWwindow* window = glfwCreateWindow(1920, 1080, "Motion Market", NULL, NULL);  
-if (!window) {  
-    // Handle window creation failure  
-}  
-🏗 Architecture
-Core Engine: Built on GLFW for rendering and window management.
-Asset System: Enables real-time preview and manipulation of assets.
-Marketplace Interface: Simplifies browsing and interacting with assets.
-Extension API: Supports the development of custom rendering pipelines and tools.
-📖 Documentation
-Comprehensive guides are available to help you:
+```
+MIT License
 
-Manage assets effectively.
-Build and customize rendering pipelines.
-Integrate with the marketplace interface.
-Develop extensions for specialized workflows.
-Leverage platform-specific features.
-🤝 Contributing
-We welcome contributions! Here's how you can help:
+Copyright (c) 2024 Motion_Market
 
-Fork the repository.
-Create a feature branch (git checkout -b feature-name).
-Commit your changes (git commit -m "Add feature").
-Push to the branch (git push origin feature-name).
-Open a Pull Request.
-📜 License
-[Insert your chosen license here, e.g., MIT, GPLv3]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-📬 Contact
-Have questions or need support? Feel free to reach out:
+(See full LICENSE file)
+```
 
-Email: [cj.johnson@gmail.com]
-GitHub: @ popstarmav 
+---
 
-![Flowchart for Motion Market](https://raw.githubusercontent.com/popstarmav/Motion_Market/main/Motion_Market/assets/flowchart.png)
+## 📩 Contact  
+
+Have questions or need support? Feel free to reach out:  
+
+- **Email**: [cj.johnson@gmail.com]
+  
+- **GitHub**: [@popstarmav](https://github.com/popstarmav)
+- **Twitter**: [@MotionMktHQ]{https://x.com/MotionMktHQ)
+
+---
